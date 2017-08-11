@@ -2,7 +2,6 @@ import java.util.*;
 import java.io.*;
 
 public class CoinChangeProblemDP{
-    int P = 4;
     private static int[] denominations = {2, 3, 5};
     public static void main(String[] args){
         System.out.println("Minimum no of coins required :"+calculateMinCoinsRec(denominations, denominations.length, 5));
